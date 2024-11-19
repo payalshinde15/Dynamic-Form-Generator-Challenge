@@ -21,22 +21,7 @@ Create a dynamic form generator that takes a JSON schema and generates a styled,
 git clone https://github.com/yourusername/dynamic-form-generator.git
 
 
-#Basic Contact Form:
 
-{
-  "formTitle": "Contact Form",
-  "fields": [
-    {
-      "id": "name",
-      "type": "text",
-      "label": "Full Name",
-      "required": true,
-      "placeholder": "Enter your name"
-    },
-    {
-      "id": "email",
-      "type": "email",
-      "label": "Email Address",
       "required": true,
       "validation": {
         "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
