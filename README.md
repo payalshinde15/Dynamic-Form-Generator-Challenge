@@ -22,11 +22,4 @@ git clone https://github.com/yourusername/dynamic-form-generator.git
 
 
 
-      "required": true,
-      "validation": {
-        "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
-        "message": "Please enter a valid email"
-      }
-    }
-  ]
-}
+      
